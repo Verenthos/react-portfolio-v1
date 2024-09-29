@@ -48,6 +48,10 @@ h2 {
     cursor: default;
 }
 
+#aboutmenu_topl {
+cursor: default;
+}
+
 @media (max-width: 1200px) {
     #playerStats {
         left: 50%;
