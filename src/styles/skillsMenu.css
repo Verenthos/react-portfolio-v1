@@ -1,3 +1,121 @@
+.skill-menu {
+    width: 31.2rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 15vw;
+    align-items: flex-end;
+}
+
+.skill-item {
+    height: 3.7rem;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skill-title {
+    font-size: 1rem;
+    padding-right: 4.5rem;
+}
+
+.skill-item.activeSkill .skill-title {
+    font-size: 1.5rem;
+}
+
+.activeSkill {
+    border-radius: var(--radius-left);
+    cursor: default;
+}
+
+.skill-item.activeSkill:nth-child(1) {
+    background: linear-gradient(270deg, #FFFFFF00, var(--cyan) 90%);
+}
+
+.skill-item.activeSkill:nth-child(2) {
+    background: linear-gradient(270deg, #FFFFFF00, var(--red) 90%);
+}
+
+.skill-icon {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 8rem;
+}
+
+.skill-sub-container-1 h2,
+.skill-sub-container-2 h2{
+    position: relative;
+    margin: 0;
+}
+
+.menu {
+    width: 19rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform:translateY(-25%);
+    right: 15vw;
+}
+
+.skill-sub-container-1,
+.skill-sub-container-2 {
+    transform: translateY(+20%);
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+
+.level-container {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.level-point {
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+
+}
+
+/* Gold shades for filled squares */
+.filled {
+    background: linear-gradient(180deg, #00c6ff, #0072ff);
+}
+
+
+/* Muted shades for unfilled squares */
+.unfilled {
+    background: linear-gradient(180deg, #b0bec5, #78909c); 
+}
+
+
+.skill-sub-container-1 h3, .skill-sub-container-2 h3 {
+    position: relative; 
+    left: 1rem; 
+    top: -1.0rem;
+    padding: 0; 
+    
+}
+
+
+.skill-menu {
+    gap: 2rem;
+    display: flex;
+    left: auto;
+}
+
+.skill-item {
+    height: 2rem;
+    width: -2rem;
+}
+
 @media (max-width: 700px) {
     .menu {
         width: 10rem;
