@@ -5,6 +5,7 @@
     flex-direction: column;
     top: 30%;
     align-items: flex-end;
+    right: 15rem !important;
     gap: 2rem;
 }
 
