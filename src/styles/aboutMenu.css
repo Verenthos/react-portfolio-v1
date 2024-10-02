@@ -130,14 +130,14 @@ h2,h3,p {
     font-size: 0.8rem;
  }
 
- @media (max-width: 1200px) {
-    .sub-container {
+@media (max-width: 1200px) {
+.sub-container {
         right: 1rem;
      }
-     .item.active .title {
+.item.active .title {
         font-size: 1rem;
      }
-     .item {
+.item {
         height: 2rem;
      }
     }
