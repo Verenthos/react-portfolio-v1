@@ -1,6 +1,7 @@
 import projectOne from "../assets/project-1.png";
 import projectTwo from "../assets/project-1.png";
 import projectThree from "../assets/project-1.png";
+import projectFour from "../assets/project-1.png";
 
 const projects = {
     1: {
@@ -30,6 +31,18 @@ const projects = {
     3: {
         title: "Books App",
         image: projectThree,
+        description: (
+            <>
+                <>Some description talking about what was used to develop this project.</>
+            </>
+        ),
+        github: "https://github.com",
+        demo: "https://netlify.com",
+        
+    },
+    4: {
+        title: "Fourth Project",
+        image: projectFour,
         description: (
             <>
                 <>Some description talking about what was used to develop this project.</>
