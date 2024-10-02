@@ -1,10 +1,11 @@
 .skill-menu {
     width: 31.2rem;
-    position: fixed;
+    position: relative;
     display: flex;
     flex-direction: column;
     top: 30%;
     align-items: flex-end;
+    right: 3rem;
     gap: 2rem;
 }
 
