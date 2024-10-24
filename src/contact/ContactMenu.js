@@ -92,7 +92,7 @@ export default function ContactMenu() {
                             type="text"
                             id="name"
                             name="name"
-                            placeholder="Name"
+                            placeholder="Nome"
                             value={formData.name}
                             onChange={handleChange}
                             className={errors.name ? "error" : ""}

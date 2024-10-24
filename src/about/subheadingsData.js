@@ -1,7 +1,7 @@
 const subheadingsData = {
     1: [
         {
-            title: "About me",
+            title: "Sobre mim",
             content: (
                 <>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu mauris, pharetra vel viverra ac, luctus vehicula nibh. Sed tristique a nibh sit amet cursus. In vel accumsan ante, ultrices blandit nunc. Cras vestibulum nunc et nisl dapibus convallis. Sed mauris sem, faucibus quis tempor eget, iaculis in dui.</p>
