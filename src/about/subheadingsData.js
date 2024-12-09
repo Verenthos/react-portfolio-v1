@@ -4,7 +4,7 @@ const subheadingsData = {
             title: "Sobre mim",
             content: (
                 <>
-                <p> Com sólidos conhecimentos em desenvolvimento web, abrangendo HTML, CSS, JavaScript e frameworks modernos como React, TypeScript, Node.js e Django, estou preparado para enfrentar desafios empolgantes e contribuir para projetos impactantes em um cenário global. Como desenvolvedor freelancer fluente em inglês, tenho a capacidade de trabalhar com clientes internacionais, colaborando efetivamente com equipes multiculturais e entregando soluções de alta qualidade que atendem às necessidades de um mercado diversificado. Minha experiência me permitiu aprimorar habilidades essenciais, como resolução criativa de problemas, atenção meticulosa aos detalhes e comunicação clara e eficiente.</p>
+                <p> Com sólidos conhecimentos em desenvolvimento web, abrangendo HTML, CSS, JavaScript, Python e frameworks modernos como React, Node.js e Django, estou preparado para enfrentar desafios empolgantes e contribuir para projetos impactantes em um cenário global. Como desenvolvedor freelancer fluente em inglês, tenho a capacidade de trabalhar com clientes internacionais, colaborando efetivamente com equipes multiculturais e entregando soluções de alta qualidade que atendem às necessidades de um mercado diversificado. Minha experiência me permitiu aprimorar habilidades essenciais, como resolução criativa de problemas, atenção meticulosa aos detalhes e comunicação clara e eficiente.</p>
                 </>
             )
         }

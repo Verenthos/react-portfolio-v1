@@ -21,7 +21,21 @@ export default class ProjectsMenu extends Component {
     return projects.map((project, index) => (
       <div key={index} className={`project-sub-container-${index + 1}`}>
         <h3>{project.title}</h3>
-        <img src={project.image} alt={project.title}></img>
+        {/* Conditionally render a video or an image */}
+        {project.isVideo ? (
+          <video
+            src={project.media}
+            controls
+            style={{ width: "100%", height: "auto" }}
+            loop
+            muted
+            autoPlay
+          >
+            Your browser does not support the video tag.
+          </video>
+        ) : (
+          <img src={project.media} alt={project.title} style={{ width: "100%", height: "auto" }} />
+        )}
         <div>{project.description}</div>
         <div className="link-container">
           <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -37,7 +51,7 @@ export default class ProjectsMenu extends Component {
 
   render() {
     const { activeProject } = this.state;
-    const projectItems = ["PROJETO 1", "PROJETO 2", "PROJETO 3", "PROJETO 4"];
+    const projectItems = ["PROJETO 1", "PROJETO 2", "PROJETO 3"];
     
     return (
       <div className="project-menu">
