@@ -13,12 +13,12 @@ export const experience: Role[] = [
     where: 'US company, remote from Brazil',
     period: 'Jan 2025 to present',
     bullets: [
-      'Led the QA department, built from zero: standards, priorities, automation and outcomes.',
-      'Wrote the Playwright end to end framework in TypeScript and wired it into Jenkins and GitHub Actions as an enforced CI gate, replacing a two hour manual verification pass on every release.',
-      'Built and shipped a production RAG application: a Discord bot for the support ticket flow with a vector database and semantic retrieval over the product database and past conversations.',
       'Implemented stablecoin swap flows in production with USDT and USDC, and USDC checkout for physical Pokemon cards in RipStation, the pack opening product.',
-      'Build and debug REST integrations across Sui, Movement, Aptos, IOTA, Supra, Stacks and NEAR, plus the bridge layer that moves assets between them.',
-      'Production React and TypeScript, including the i18n and localization work for RipStation. Daily PostgreSQL for validation and root cause investigation.',
+      'Build and debug REST and RPC integrations across Sui, Movement, Aptos, IOTA, Supra, Stacks and NEAR, plus the bridge layer that moves assets between them.',
+      'Built and shipped a production RAG application: a Discord bot for the support ticket flow with a vector database and semantic retrieval over the product database and past conversations.',
+      'Production React and TypeScript, including the i18n and localization work for RipStation. Daily PostgreSQL for data validation and root cause investigation.',
+      'Wrote the Playwright end to end framework in TypeScript and wired it into Jenkins and GitHub Actions as an enforced release gate, replacing a two hour manual verification pass on every release.',
+      'Started and led the QA function from zero alongside feature work: standards, priorities, automation and outcomes.',
     ],
   },
   {

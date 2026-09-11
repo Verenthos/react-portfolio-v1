@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <div className="clip-corner border border-line bg-panel p-6 sm:p-8">
       <p className="max-w-xl leading-relaxed text-paper/90">
-        Remote roles, worldwide. Support engineering, QA automation, fullstack work. I answer within a day.
+        Remote developer roles, worldwide. Fullstack, backend or blockchain integrations. I answer within a day.
       </p>
       <a
         className="font-display mt-4 inline-block text-xl text-cyan underline-offset-4 hover:underline sm:text-2xl"

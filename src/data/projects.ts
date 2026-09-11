@@ -19,11 +19,11 @@ export const projects: Project[] = [
     live: 'https://multichain-wallet-demo.vercel.app',
   },
   {
-    name: 'TradePort QA and support platform',
+    name: 'TradePort marketplace platform',
     kind: 'Case study',
     summary:
-      'A QA department built from zero for a seven chain marketplace: a Playwright framework gating every release in Jenkins and GitHub Actions, and a RAG Discord bot that pulls product data and past tickets into the support flow. Two hours of manual checks per release went to zero.',
-    stack: ['Playwright', 'TypeScript', 'Jenkins', 'GitHub Actions', 'PostgreSQL', 'RAG'],
+      'Production work on a seven chain digital asset marketplace: USDT and USDC swap flows, USDC checkout for physical goods, localization for the pack opening product, a RAG Discord bot for support tickets, and the bridge layer between chains. Backed by a Playwright framework that gates every release in Jenkins and GitHub Actions.',
+    stack: ['TypeScript', 'React', 'Node.js', 'PostgreSQL', 'RAG', 'Playwright', 'Jenkins'],
     note: 'Work project, code is private.',
   },
   {
