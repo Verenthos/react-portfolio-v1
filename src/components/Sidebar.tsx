@@ -11,7 +11,7 @@ const nav = [
 
 export function Sidebar() {
   return (
-    <aside className="lg:self-start lg:[@media(min-height:960px)]:sticky lg:[@media(min-height:960px)]:top-16">
+    <aside className="lg:self-start lg:tall:sticky lg:tall:top-16">
       <div className="flex items-end gap-6 lg:block">
         <div className="relative w-28 shrink-0 sm:w-36 lg:w-48">
           <span

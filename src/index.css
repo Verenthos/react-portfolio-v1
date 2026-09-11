@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Screens tall enough for the whole sidebar to stay visible while stuck. */
+@custom-variant tall (@media (min-height: 960px));
+
 @theme {
   --font-display: "Chakra Petch", "Segoe UI", sans-serif;
   --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
