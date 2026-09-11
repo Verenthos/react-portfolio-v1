@@ -7,7 +7,7 @@ export const profile = {
   github: 'https://github.com/Verenthos',
   linkedin: 'https://www.linkedin.com/in/hector-seibel-489329260/',
   stats: [
-    { value: '4+', label: 'years building software' },
+    { value: '5', label: 'years building software' },
     { value: '7', label: 'chains integrated in production' },
     { value: '10k+', label: 'downloads on a product shipped solo' },
     { value: '3', label: 'languages, English C2' },

@@ -25,7 +25,7 @@ export const experience: Role[] = [
     title: 'Freelance Software Developer',
     company: 'Self employed',
     where: 'Local and international clients',
-    period: 'Dec 2022 to Jan 2025',
+    period: 'Dec 2021 to Jan 2025',
     bullets: [
       'Shipped a narrative game solo in 2023 that passed 10,000 downloads, sold as a subscription through Patreon. Wrote the script, planned a day by day roadmap and followed it through release.',
       'Ran client work end to end: discovery with non technical owners, scoping, build, deployment and post launch support.',
