@@ -10,7 +10,7 @@ export const experience: Role[] = [
   {
     title: 'Blockchain Engineer',
     company: 'TradePort',
-    where: 'US company, remote from Brazil',
+    where: 'Venture-backed US startup, founded 2021, remote from Brazil',
     period: 'Jan 2025 to present',
     bullets: [
       'Implemented stablecoin swap flows in production with USDT and USDC, and USDC checkout for physical Pokemon cards in RipStation, the pack opening product.',
